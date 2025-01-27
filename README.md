@@ -20,27 +20,15 @@ npm or yarn (for managing dependencies)
 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/recipe-website.git
 Navigate into the project directory:
 
-bash
-Copy
-Edit
 cd recipe-website
 Install the dependencies:
 
-bash
-Copy
-Edit
 npm install
 Start the development server:
 
-bash
-Copy
-Edit
 npm run dev
 Open your browser and go to http://localhost:3000 to view the app.
 
@@ -49,9 +37,6 @@ To deploy the app on Netlify (or any other hosting provider):
 
 Build the app for production:
 
-bash
-Copy
-Edit
 npm run build
 Follow the Netlify deployment guide to deploy your app.
 
@@ -62,5 +47,5 @@ Fork the repository
 Create a new branch
 Make your changes
 Create a pull request
-License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
