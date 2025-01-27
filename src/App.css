@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700; /* Bold for more emphasis */
+  text-align: center;
+  font-size: 3rem; /* Larger font size */
+  letter-spacing: 2px; /* Slight letter spacing for more openness */
+  color: #004B87; /* Matching the accent color you mentioned */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow to make it stand out */
+  margin-bottom: 50px;
+}
+
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666;
+}
