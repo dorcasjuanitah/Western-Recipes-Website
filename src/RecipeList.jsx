@@ -1,11 +1,14 @@
 import React from 'react';
 import RecipeCard from './RecipeCard';
+import spaghettiImage from './assets/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg';
+import pieImage from './assets/images (1).jpeg';
+import curryImage from './assets/images.jpeg';
 
 const RecipeList = () => {
   const recipes = [
     {
       title: 'Spaghetti Carbonara',
-      image: 'src/assets/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg',
+      image: spaghettiImage,
       description: 'A delicious Italian pasta dish.',
       ingredients: [
         '200g spaghetti',
@@ -28,7 +31,7 @@ const RecipeList = () => {
     },
     {
       title: 'Chicken Curry',
-      image: 'src/assets/images.jpeg',
+      image: curryImage,
       description: 'A spicy and savory chicken curry.',
       ingredients: [
         '500g chicken breast, diced',
@@ -53,7 +56,7 @@ const RecipeList = () => {
     },
     {
       title: 'Apple Pie',
-      image: 'src/assets/images (1).jpeg',
+      image: pieImage,
       description: 'A sweet and warm apple dessert.',
       ingredients: [
         '6 apples, peeled, cored, and sliced',
@@ -79,7 +82,7 @@ const RecipeList = () => {
     },
     {
         title: 'Spaghetti Carbonara',
-        image: 'src/assets/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg',
+        image: spaghettiImage,
         description: 'A delicious Italian pasta dish.',
         ingredients: [
           '200g spaghetti',
@@ -102,7 +105,7 @@ const RecipeList = () => {
       },
       {
         title: 'Apple Pie',
-        image: 'src/assets/images (1).jpeg',
+        image: pieImage,
         description: 'A sweet and warm apple dessert.',
         ingredients: [
           '6 apples, peeled, cored, and sliced',
@@ -128,7 +131,7 @@ const RecipeList = () => {
       },
       {
         title: 'Apple Pie',
-        image: 'src/assets/images (1).jpeg',
+        image: pieImage,
         description: 'A sweet and warm apple dessert.',
         ingredients: [
           '6 apples, peeled, cored, and sliced',
@@ -154,7 +157,7 @@ const RecipeList = () => {
       },
       {
         title: 'Apple Pie',
-        image: 'src/assets/images (1).jpeg',
+        image: pieImage,
         description: 'A sweet and warm apple dessert.',
         ingredients: [
           '6 apples, peeled, cored, and sliced',
@@ -179,7 +182,7 @@ const RecipeList = () => {
         ],
       },{
         title: 'Apple Pie',
-        image: 'src/assets/images (1).jpeg',
+        image: pieImage,
         description: 'A sweet and warm apple dessert.',
         ingredients: [
           '6 apples, peeled, cored, and sliced',
